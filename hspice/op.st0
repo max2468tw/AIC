@@ -1,0 +1,59 @@
+***** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) winnt ******
+ Input File: c:\users\maxch\onedrive\desktop\git\aic\hspice\op.sp
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   maxch                HOSTNAME: DESKTOP-F6GNDRI
+ lic: HOSTID: "d0bf9c844eea 38b1dbf8a8f5 3ab1dbf8a8f5" PID:      10064
+ lic: Using FLEXlm license file:
+ lic: 27000@localhost
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2028/2008.120
+ lic: 1(in_use)/999(total) FLOATING license(s) on SERVER localhost
+ lic:
+ init: begin read circuit files,  cpu clock=  6.50E-02
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option post
+       option accura
+       option method   = gear
+       option probe
+ init: end read circuit files,  cpu clock=  1.31E-01 memory=    151 kb
+ init: begin check errors,  cpu clock=  1.31E-01
+ init: end check errors,  cpu clock=  1.47E-01 memory=    180 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.47E-01
+       establish matrix -- done,  cpu clock=  1.59E-01 memory=    188 kb
+       re-order matrix -- done,  cpu clock=  1.62E-01 memory=    190 kb
+ init: end setup matrix,  cpu clock=  1.67E-01 memory=    208 kb
+ dcop: begin dcop,  cpu clock=  1.74E-01
+ dcop: end dcop,  cpu clock=  1.89E-01 memory=    208 kb  tot_iter=      14
+ output: c:\users\maxch\onedrive\desktop\git\aic\hspice\op.ma0
+ sweep: ac ac0    begin, #sweeps=  81 cpu clock=  2.05E-01
+ ac: frequency=    1.26E+01
+ ac: frequency=    6.31E+01
+ ac: frequency=    3.98E+02
+ ac: frequency=    2.51E+03
+ ac: frequency=    1.58E+04
+ ac: frequency=    1.00E+05
+ ac: frequency=    6.31E+05
+ ac: frequency=    3.98E+06
+ ac: frequency=    2.51E+07
+ ac: frequency=    1.58E+08
+ ac: frequency=    1.00E+09
+ sweep: ac ac0    end,  cpu clock=  2.68E-01 memory=    211 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

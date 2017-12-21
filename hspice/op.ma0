@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE '****** two stage opamp ******'
+ gain10hz         unit_gain        phase_mar        temper            
+ alter#            
+   67.7931         4.523e+07       -118.0935          27.0000         
+ 1                 
