@@ -1,0 +1,23 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "22:56:36 12/31/2017 "
+* "netlist" "c:\users\maxch\onedrive\desktop\git\aic\hspice\oscillator\oscillator.sp "
+* "runtitle" "****** wien-bridge oscillator ******"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   1.0559        
++ 2 =  -1.1606        
++ 3 =  -1.1486        
++ 4 = 942.7693m       
++ 5 =  -1.3057m       
++ vdd =   1.8000        
++ vinn =-290.1447u       
++ vinp =   0.            
++ vo =  -1.3057m       
++ vss =  -1.8000        
+***   END: Saved Operating Point ***                     
